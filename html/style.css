@@ -101,3 +101,14 @@
     color: black;
     text-align: left;
 }
+
+.WhenToCall h1 {
+  background-color: #ddd;
+  border-radius: 5px;
+  width: fit-content;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
