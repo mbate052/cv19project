@@ -95,4 +95,9 @@
         
     }
   }
-  
+.Symptoms {
+    background-color: grey;
+    border: 5px grey solid;
+    color: black;
+    text-align: left;
+}
