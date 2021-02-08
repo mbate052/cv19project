@@ -1,6 +1,6 @@
 .header{
     overflow: hidden;
-    background-color: #cacaca;
+    background-color: #83BCFF;
     border-radius: 5px;
     padding: 20px 10px;
 }
@@ -24,21 +24,21 @@
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #ddd;
+    background-color: #97D2FB;
     border-radius: 5px;
     color: black;
   }
   
   /* Style the active/current link*/
   .header a.active_nav {
-    background-color: rgb(87, 87, 87);
+    background-color: #97D2FB;
     border-radius: 5px;
     color: white;
   }
 
     /* Style the active/current link*/
 .header a.active_nav:hover {
-    background-color: #ddd;
+    background-color: #97D2FB;
     border-radius: 5px;
     color: black;
     }
@@ -62,7 +62,7 @@
 
 
   .body {
-      background-color: #cacaca;
+      background-color: #97D2FB;
       border-radius: 5px;
       font-family: 'Courier New', monospace;
 
@@ -94,15 +94,16 @@
         padding-bottom: 10px;
         
     }
+
   }
   form {   
     border: 3px solid #f1f1f1;   
 }   
 input[type=text], input[type=password] {   
-    width: 100%;   
-    margin: 8px 0;  
+    width: 70%;   
+    margin: 8px auto;  
     padding: 12px 20px;   
-    display: inline-block;   
+    display: block;   
     border: 2px solid rgb(71, 145, 230);   
     box-sizing: border-box;   
 }  
@@ -113,14 +114,14 @@ input[type=text], input[type=password] {
     text-align: left;
 }
 
+
+
 .WhenToCall h1 {
-  background-color: #ddd;
   border-radius: 5px;
   padding: 5px 5px;
 
 }
 
-<style>
 html {
   box-sizing: border-box;
 }
@@ -187,17 +188,41 @@ html {
  
 .inputform {   
     padding: 25px;   
-    background-color: lightblue;  
+    border-radius: 5px;
+    background-color: #97D2FB;  
 }   
 
+a, h2, label {
+  font-family: 'Courier New', monospace;
+  padding: 5px;
+}
+
+
 .login {
-    width: 100%;   
-    margin: 8px 0;  
+    width: 75%;   
     padding: 12px 20px;   
-    display: inline-block;    
+    display: block;
+    margin: 0 auto;
+    text-align: center;    
     box-sizing: border-box;
-    background-color: rgb(71, 145, 230);
+    background-color: #83BCFF;
     color: white;
     
 }
-</style>
+
+.inputform a {
+  color: black;
+  text-decoration: none;
+}
+
+.center_text {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.forgot_password {
+  background-color: #83BCFF;
+  width: fit-content;
+  border-radius: 5px;
+}
