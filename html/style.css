@@ -95,6 +95,17 @@
         
     }
   }
+  form {   
+    border: 3px solid #f1f1f1;   
+}   
+input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid rgb(71, 145, 230);   
+    box-sizing: border-box;   
+}  
 .Symptoms {
     background-color: grey;
     border: 5px grey solid;
@@ -164,5 +175,29 @@ html {
 
 .button:hover {
   background-color: #555;
+  opacity: 0.7;   
+}   
+
+.cancelbtn {   
+    width: auto;   
+    padding: 10px 18px;  
+    margin: 10px 5px;  
+}   
+    
+ 
+.inputform {   
+    padding: 25px;   
+    background-color: lightblue;  
+}   
+
+.login {
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;    
+    box-sizing: border-box;
+    background-color: rgb(71, 145, 230);
+    color: white;
+    
 }
 </style>
