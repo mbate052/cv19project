@@ -106,7 +106,7 @@ input[type=text], input[type=password] {
     border: 2px solid rgb(71, 145, 230);   
     box-sizing: border-box;   
 }  
-.Symptoms {
+.symptoms {
     background-color: grey;
     border: 5px grey solid;
     color: black;
