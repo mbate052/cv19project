@@ -226,3 +226,7 @@ a, h2, label {
   width: fit-content;
   border-radius: 5px;
 }
+
+a{
+  text-decoration: none;
+}
