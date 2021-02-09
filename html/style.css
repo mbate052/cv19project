@@ -1,6 +1,6 @@
 .header{
     overflow: hidden;
-    background-color: #dbdfe9;
+    background-color: #83BCFF;
     border-radius: 5px;
     padding: 20px 10px;
 }
@@ -24,21 +24,21 @@
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #1f9bee;
+    background-color: #97D2FB;
     border-radius: 5px;
     color: black;
   }
   
   /* Style the active/current link*/
   .header a.active_nav {
-    background-color: #5c71e9;
+    background-color: #97D2FB;
     border-radius: 5px;
     color: white;
   }
 
     /* Style the active/current link*/
 .header a.active_nav:hover {
-    background-color: #3b0aec;
+    background-color: #97D2FB;
     border-radius: 5px;
     color: black;
     }
@@ -62,7 +62,7 @@
 
 
   .body {
-      background-color: white;
+      background-color: #97D2FB;
       border-radius: 5px;
       font-family: 'Courier New', monospace;
 
@@ -104,11 +104,11 @@ input[type=text], input[type=password] {
     margin: 8px auto;  
     padding: 12px 20px;   
     display: block;   
-    border: 2px solid rgb(108, 165, 230);   
+    border: 2px solid rgb(71, 145, 230);   
     box-sizing: border-box;   
 }  
 .symptoms {
-    background-color: rgb(202, 227, 241);
+    background-color: grey;
     border: 5px grey solid;
     color: black;
     text-align: left;
@@ -189,7 +189,7 @@ html {
 .inputform {   
     padding: 25px;   
     border-radius: 5px;
-    background-color: #d1e2f5;  
+    background-color: #97D2FB;  
 }   
 
 a, h2, label {
@@ -205,7 +205,7 @@ a, h2, label {
     margin: 0 auto;
     text-align: center;    
     box-sizing: border-box;
-    background-color: #0a51a1;
+    background-color: #83BCFF;
     color: white;
     
 }
@@ -222,7 +222,7 @@ a, h2, label {
 }
 
 .forgot_password {
-  background-color: #ecd38f;
+  background-color: #83BCFF;
   width: fit-content;
   border-radius: 5px;
 }
