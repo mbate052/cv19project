@@ -4,7 +4,7 @@ html,body{
 
 .header{
   overflow: hidden;
-  background-color: #83BCFF;
+  background-color: #c2dff3;
   border-radius: 5px;
   padding: 20px 10px;
 }
@@ -28,14 +28,15 @@ html,body{
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #97D2FB;
-  border-radius: 5px;
-  color: black;
+    background-color: #a8c8ec;
+    border-radius: 5px;
+    color: black;
+    font-size: 20pt;
 }
 
 /* Style the active/current link*/
 .header a.active_nav {
-  background-color: #97D2FB;
+  background-color: #0c70f3;
   border-radius: 5px;
   color: white;
 }
@@ -55,7 +56,6 @@ html,body{
 
 
 .body {
-  background-color: #97D2FB;
   border-radius: 5px;
   font-family: 'Courier New', monospace;
   }
@@ -109,7 +109,7 @@ a{
   background-position: center;
   background-repeat: no-repeat;
   height: 280px;
-  width: 100%;
+  width: 30%;
 }
 
 .img-text-wrapper {
@@ -127,7 +127,7 @@ a{
 
 
 .img-text-wrapper:hover .subtitle {
-  color: darkblue;
+  color: rgb(19, 6, 138);
   font-weight: 800;
 }
 
@@ -137,7 +137,7 @@ a{
   margin: 0 auto;
   margin-bottom: 40px;
   max-height: 100px;
-  max-width: 100px
+  max-width: 100px;
 }
 
 .profile-image-wrapper img {
@@ -145,5 +145,5 @@ a{
 }
 
 .profile-content-wrapper h1 {
-  color:darkblue;
+  color:rgb(100, 152, 219);
 }
