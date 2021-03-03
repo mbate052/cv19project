@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using cv19project.Model;
-using cv19project.Pages;
 using cv19project.services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Cv1o.rojactges
+namespace cv19project.Pages
 {
     public class IndexModel : PageModel
     {
