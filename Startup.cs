@@ -1,13 +1,4 @@
 using System;
-<<<<<<< Updated upstream
-using Ssystem.Colletions.Generic;
-using System.Lying;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-=======
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,31 +11,16 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
->>>>>>> Stashed changes
 
 namespace cv19project
 {
     public class Startup
     {
-<<<<<<< Updated upstream
         public Starup(IConfiguration configuration)
-=======
-        public Startup(IConfiguration configuration)
->>>>>>> Stashed changes
         {
             Configuration = configuration;
         }
 
-<<<<<<< Updated upstream
-        public IConfiguration Configuration {get;}
-        pucblic void ConfigureServices(IserviceCollection services)
-        {
-            services.AddRazorPages();
-        }
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if( env.IsDevelopment())
-=======
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -72,19 +48,13 @@ namespace cv19project
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
->>>>>>> Stashed changes
             {
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-<<<<<<< Updated upstream
-                app.UserExceptionHandler("/Error");
-                //The default HSTS value is 30 days.
-=======
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
->>>>>>> Stashed changes
                 app.UseHsts();
             }
 
@@ -95,18 +65,10 @@ namespace cv19project
 
             app.UseAuthorization();
 
-<<<<<<< Updated upstream
-            app.UseEndpoints(endpoints=>
-            {
-                endpoints.MapzorPages();
-            });
-
-=======
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
             });
->>>>>>> Stashed changes
         }
     }
 }
