@@ -16,7 +16,7 @@ namespace cv19project
 {
     public class Startup
     {
-        public Starup(IConfiguration configuration)
+        public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }

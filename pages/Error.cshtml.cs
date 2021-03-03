@@ -16,18 +16,19 @@ namespace cv19project.Pages
     public class ErrorModel : PageModel
     {
         private readonly ILogger<ErrorModel> _logger;
-        public ProvincesService MyProvincesService;
+        private ProvincesService myProvincesService;
 
         public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
+        public ProvincesService MyProvincesService { get => myProvincesService; set => myProvincesService = value; }
 
         public ErrorModel(ILogger<ErrorModel> logger) => _logger = logger;
 
         public void OnGet()
         {
-            RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+
         }
     }
 }
