@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using cv19project.Model;
-using cv19project.services;
+using Adm4379Example.Model;
+using Adm4379Example.services;
+using Adm4379Example.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace cv19project.Pages
+namespace Adm4379Example.Pages
 {
     public class IndexModel : PageModel
     {
@@ -35,6 +36,7 @@ namespace cv19project.Pages
         public void OnGet()
         {
             Provinces = jsonservice.GetProvinces();
+            Province2 = MyProvincesService.Get();
         }
     }
 }
