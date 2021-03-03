@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Adm4379Example.Model;
-using Adm4379Example.services;
-using Adm4379Example.Services;
+using cv19project.Model;
+using cv19project.Pages;
+using cv19project.services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Adm4379Example.Pages
+namespace Cv1o.rojactges
 {
     public class IndexModel : PageModel
     {
@@ -36,7 +36,7 @@ namespace Adm4379Example.Pages
         public void OnGet()
         {
             Provinces = jsonservice.GetProvinces();
-            Province2 = MyProvincesService.Get();
+
         }
     }
 }
