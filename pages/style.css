@@ -1,0 +1,244 @@
+.form {
+  width: fit-content;
+}
+.header{
+    overflow: hidden;
+    background-color: #c2dff3;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #a8c8ec;
+    border-radius: 5px;
+    color: black;
+    font-size: 20pt;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active_nav {
+    background-color: #0c70f3;
+    border-radius: 5px;
+    color: white;
+  }
+
+    /* Style the active/current link*/
+.header a.active_nav:hover {
+    background-color: #97D2FB;
+    border-radius: 5px;
+    color: black;
+    }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+  .body {
+      border-radius: 5px;
+      font-family: 'Courier New', monospace;
+
+      
+  }
+
+  .body p {
+      padding: 5px 5px;
+  }
+
+  .chart {
+      display: block;
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 5px;
+      padding-bottom: 10px;
+      
+  }
+
+  @media screen and (min-width: 1000px) {
+    .chart {
+        display:flex; 
+        justify-content: space-evenly;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 5px;
+        float:center; 
+        padding-bottom: 10px;
+        
+    }
+
+  }
+  form {   
+    border: 3px solid #f1f1f1;   
+}   
+input[type=text], input[type=password] {   
+    width: 70%;   
+    margin: 8px auto;  
+    padding: 12px 20px;   
+    display: block;   
+    border: 2px solid rgb(71, 145, 230);   
+    box-sizing: border-box;   
+}  
+.symptoms {
+    background-color: grey;
+    border: 5px grey solid;
+    color: black;
+    text-align: left;
+}
+
+
+
+.WhenToCall h1 {
+  border-radius: 5px;
+  padding: 5px 5px;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+  opacity: 0.7;   
+}   
+
+.cancelbtn {   
+    width: auto;   
+    padding: 10px 18px;  
+    margin: 10px 5px;  
+}   
+    
+ 
+.inputform {   
+    padding: 25px;   
+    border-radius: 5px;
+    background-color: #97D2FB;  
+}   
+
+a, h2, label {
+  font-family: 'Courier New', monospace;
+  padding: 5px;
+}
+
+
+.login {
+    width: 75%;   
+    padding: 12px 20px;   
+    display: block;
+    margin: 0 auto;
+    text-align: center;    
+    box-sizing: border-box;
+    background-color: #83BCFF;
+    color: white;
+    
+}
+
+.inputform a {
+  color: black;
+  text-decoration: none;
+}
+
+.center_text {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.forgot_password {
+  background-color: #83BCFF;
+  width: fit-content;
+  border-radius: 5px;
+  margin-right: 5px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.clickable-element {
+  background-color: #d2e5d0;
+  border-radius: 5px;
+  box-shadow: black;
+}
+.footer {
+  background-color: black;
+  color:white;
+}

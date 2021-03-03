@@ -1,0 +1,23 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Test Centers";
+}
+<html>
+    <head>
+        <title>Let's find a test center near you!</title>
+    </head>
+    <body class="body">
+        <h1 class="body header a:hover" >
+            <h2>Welcome</h2>
+            <P>Which Province are you in?</P>
+            <select id = "select_provinces">
+                @foreach (var prov in Model.Provinces) {
+                <option value="@prov.id">@prov.name</option>
+            }
+            </select>
+        </h1>
+
+    </body>
+</html>
+
