@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\cv19project.csproj",
+  "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\cv19project.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,58 +15603,58 @@
   "RootNamespace": "cv19project",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\track.cshtml",
-      "TargetPath": "pages\\track.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\about.cshtml",
-      "TargetPath": "pages\\about.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\ViewImports.cshtml",
-      "TargetPath": "pages\\ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\Error.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Error.cshtml",
       "TargetPath": "pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\actions.cshtml",
-      "TargetPath": "pages\\actions.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\login.cshtml",
-      "TargetPath": "pages\\login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\viewStart.cshtml",
-      "TargetPath": "pages\\viewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\test.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\test.cshtml",
       "TargetPath": "pages\\test.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\pages\\Index.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\track.cshtml",
+      "TargetPath": "pages\\track.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\about.cshtml",
+      "TargetPath": "pages\\about.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\ViewImports.cshtml",
+      "TargetPath": "pages\\ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\viewStart.cshtml",
+      "TargetPath": "pages\\viewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Index.cshtml",
       "TargetPath": "pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\actions.cshtml",
+      "TargetPath": "pages\\actions.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\login.cshtml",
+      "TargetPath": "pages\\login.cshtml",
       "FileKind": "mvc"
     }
   ],
