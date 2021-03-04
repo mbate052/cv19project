@@ -28,7 +28,7 @@ namespace cv19project.Pages
 
         public IndexModel(ILogger<ErrorModel> logger, JsonProvinceReaderService jprs, ProvincesService ProvService)
         {
-            _logger = (ILogger<IndexModel>)logger;
+            _logger = logger;
             jsonservice = jprs;
             MyProvincesService = ProvService;
         }
