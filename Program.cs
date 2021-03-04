@@ -20,7 +20,7 @@ namespace cv19project
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>().UseUrls(("http://*:5001"));
+                    webBuilder.UseStartup<Startup>().UseUrls(("http://localhost:5001"));
                 });
     }
 }
