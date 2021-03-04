@@ -7,6 +7,5 @@ namespace cv19project.Model {
         public string Id {get;set;}
         [BsonElement("Name")]
         public string Name{get;set; }
-        public decimal TaxRate {get;set;}
     }
 }
