@@ -1,5 +1,5 @@
 @page
-@model IndexModel
+@model cv19project.Pages.TestModel
 @{
     ViewData["Title"] = "Test Centers";
 }
@@ -13,7 +13,7 @@
             <P>Which Province are you in?</P>
             <select id = "select_provinces">
                 @foreach (var prov in Model.Provinces) {
-                <option value="@prov.id">@prov.name</option>
+                <option value="@prov.Id">@prov.Name</option>
             }
             </select>
         </h1>

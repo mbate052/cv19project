@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using cv19project.Model;
-using cv19project.services;
 using cv19project.Pages;
+using cv19project.services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
@@ -29,7 +29,6 @@ namespace cv19project.Pages
         public IndexModel(ILogger<ErrorModel> logger, JsonProvinceReaderService jprs, ProvincesService ProvService)
         {
             _logger = (ILogger<IndexModel>)logger;
-            // not sure if it it right here
             jsonservice = jprs;
             MyProvincesService = ProvService;
         }
@@ -37,6 +36,7 @@ namespace cv19project.Pages
         public void OnGet()
         {
             Provinces = jsonservice.GetProvinces();
+
         }
     }
 }
