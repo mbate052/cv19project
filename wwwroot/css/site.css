@@ -1,0 +1,221 @@
+﻿/* /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+ */
+ html,body{
+  overflow-x: hidden;
+}
+
+.header{
+  overflow: hidden;
+  background-color: #83BCFF;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #97D2FB;
+  border-radius: 5px;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active_nav {
+  background-color: #97D2FB;
+  border-radius: 5px;
+  color: white;
+}
+
+  /* Style the active/current link*/
+.header a.active_nav:hover {
+  background-color: #97D2FB;
+  border-radius: 5px;
+  color: black;
+  }
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+
+
+.body {
+  background-color: #97D2FB;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  }
+
+  .body p {
+      padding: 5px 5px;
+  }
+
+  .chart {
+      display: block;
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 5px;
+      padding-bottom: 10px;
+      
+  }
+
+  @media screen and (min-width: 1000px) {
+    .chart {
+        display:flex; 
+        justify-content: space-evenly;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 5px;
+        float:center; 
+        padding-bottom: 10px;
+        
+    }
+  }
+
+/*Main page*/
+a{
+    text-decoration: none;
+}
+
+/*To have a grid with 3 columns*/
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+}
+
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+.portfolio-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 100%;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.img-text-wrapper:hover .subtitle {
+  color: darkblue;
+  font-weight: 800;
+}
+
+/* To add a space between the text and the images */
+.logo-wrapper img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-height: 100px;
+  max-width: 100px
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper h1 {
+  color:darkblue;
+}
