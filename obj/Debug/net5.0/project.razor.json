@@ -15603,58 +15603,58 @@
   "RootNamespace": "cv19project",
   "Documents": [
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Error.cshtml",
+      "TargetPath": "pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\test.cshtml",
-      "TargetPath": "Pages\\test.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\test.cshtml",
+      "TargetPath": "pages\\test.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\track.cshtml",
-      "TargetPath": "Pages\\track.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\track.cshtml",
+      "TargetPath": "pages\\track.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\about.cshtml",
-      "TargetPath": "Pages\\about.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\about.cshtml",
+      "TargetPath": "pages\\about.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\ViewImports.cshtml",
-      "TargetPath": "Pages\\ViewImports.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\ViewImports.cshtml",
+      "TargetPath": "pages\\ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\viewStart.cshtml",
-      "TargetPath": "Pages\\viewStart.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\viewStart.cshtml",
+      "TargetPath": "pages\\viewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\Index.cshtml",
+      "TargetPath": "pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\actions.cshtml",
-      "TargetPath": "Pages\\actions.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\actions.cshtml",
+      "TargetPath": "pages\\actions.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\Pages\\login.cshtml",
-      "TargetPath": "Pages\\login.cshtml",
+      "FilePath": "d:\\UO Class material\\Classes\\2021 winter\\ADM 4379\\Project code\\cv19project\\pages\\login.cshtml",
+      "TargetPath": "pages\\login.cshtml",
       "FileKind": "mvc"
     }
   ],
