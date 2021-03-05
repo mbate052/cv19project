@@ -4,8 +4,13 @@
     background-color: #77A6F7;
 }
 
+html body {
+  background-color: #86B3D1;
+}
+.dark-mode {
+  background-color: grey;
+}
 
-  
     .body p {
         padding: 5px 5px;
     }
