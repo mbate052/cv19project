@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rp6shU1fPB4jqpXn4G2vUDIHqXU1eYDZ53yvp0c4DMyxmqvpQCGo5XlmraI+hj7Lz+Klh9EEpCxsGXRzvkuDIA==",
+  "dgSpecHash": "QEH1+A6E3LISBO7LdlCM4Qp6kfd5kjBjJGVacQS5MRtLgdyf0aNUUuC+/tTbw/vfJ8iMqKBKANzmoUXIA1i4qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\covidwatch\\covidwatch.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\covidwatch.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
