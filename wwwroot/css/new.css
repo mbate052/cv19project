@@ -3,14 +3,37 @@
     padding: 20px 10px;
     background-color: #77A6F7;
 }
-
-html body {
-  background-color: #86B3D1;
+body {
+  --text-color: #222;
+  --bkg-color: #fff;
+}
+body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: #121212;
 }
 .dark-mode {
   background-color: grey;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --text-color: #eee;
+    --bkg-color: #121212;
+  }
+  body.light-theme {
+    --text-color: #222;
+    --bkg-color: #fff;
+  }
+}
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p, a {
+  color: var(--text-color);
+}
     .body p {
         padding: 5px 5px;
     }

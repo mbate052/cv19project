@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,25 +11,47 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="~/css/new.css" />
     <script>
-        function darkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
+    window.onload=function(){
+        const btn = document.querySelector(".btn-toggle");
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme == "dark") {
+            document.body.classList.toggle("dark-theme");
+        } else if (currentTheme == "light") {
+            document.body.classList.toggle("light-theme");
         }
+            btn.addEventListener("click", function () {
+                if (prefersDarkScheme.matches) {
+                    document.body.classList.toggle("light-theme");
+                    var theme = document.body.classList.contains("light-theme")
+                        ? "light"
+                        : "dark";
+                } else {
+                    document.body.classList.toggle("dark-theme");
+                    var theme = document.body.classList.contains("dark-theme")
+                        ? "dark"
+                        : "light";
+                }
+                localStorage.setItem("theme", theme);
+            });
+    }
     </script>
 </head>
+
 <body>
     <header>
         <nav class="header nav navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand text-light" asp-area="" asp-page="/Index">Covid Watch</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" style="color:white;" disppasp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-light" style="color:white;" disppasp-area=""
+                                asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/About">About</a>
@@ -45,17 +68,14 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-page="/Login">Login</a>
                         </li>
-                        <li class="nav-item">
-                            
-                        </li>
                     </ul>
                 </div>
                 <div class="mx-auto order-5">
-                    <button type="button" class="btn btn-primary" onclick="darkMode()">Dark Mode</button>
+                    <button type="button" class="btn btn-primary btn-toggle">Dark Mode</button>
                 </div>
             </div>
         </nav>
-    </header> 
+    </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -74,4 +94,5 @@
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
