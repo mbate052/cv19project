@@ -4,91 +4,42 @@
     ViewData["Title"] = "Home page";
 }
 <html>
-  <body class="body">
-  <div class="content-wrapper">
-          <div class="portfolio-items-wrapper">
 
-            <div class="portfolio-item-wrapper">
-              <div class="portfolio-img-background" style="background-image:url('images/blue.jpg')"></div>
-
-              <div class="img-text-wrapper">
-                <a asp-page="/Prevention">
-                <div class="logo-wrapper">
-                  <img src="img\mask2.png" alt="" margin=0;>
-                </div>
-              </a>
-
-                <div class="subtitle"><a href="/Prevention">Health Guidelines</a></div>
-              </div>
-            </div>
-
-            <div class="portfolio-item-wrapper">
-              <div class="portfolio-img-background" style="background-image:url('images/blue.jpg')"></div>
-              <div class="img-text-wrapper">
-                <a href="https://covid-19.ontario.ca/self-assessment/severe-symptoms">
-                <div class="logo-wrapper">
-                  <img src="img/rules.png" alt="" >
-                </div>
-                </a>
-
-                <div class="subtitle"><a href="https://covid-19.ontario.ca/self-assessment/severe-symptoms"> Self-Assesment</a></div>
-              </div>
-            </div>
-
-            <div class="portfolio-item-wrapper">
-              <div class="portfolio-img-background" style="background-image:url('images/blue.jpg')"></div>
-              <a href="https://covid-19.ontario.ca/covid-19-vaccines-ontario">
-              <div class="img-text-wrapper">
-                <div class="logo-wrapper">
-                  <img src="images/vaccin.jpg" alt="" >
-                </div>
-              </a>
-
-                <div class="subtitle"><a href="https://covid-19.ontario.ca/covid-19-vaccines-ontario">Vaccination</a></div>
-              </div>
-            </div>
-
-            <div class="portfolio-item-wrapper">
-              <div class="portfolio-img-background" style="background-image:url('images/blue.jpg')"></div>
-              <div class="img-text-wrapper">
-                <a href="https://covid-19.ontario.ca/assessment-centre-locations">
-                <div class="logo-wrapper">
-                  <img src="images/testingcenter.png" alt="">
-                </div>
-              </a>
-
-                <div class="subtitle"><a href="https://covid-19.ontario.ca/assessment-centre-locations">Testing center</a></div>
-              </div>
-            </div>
-
-            <div class="portfolio-item-wrapper">
-              <div class="portfolio-img-background" style="background-image:url('images/blue.jpg')"></div>
-              <div class="img-text-wrapper">
-                <a href="track.html">
-                <div class="logo-wrapper">
-                  <img src="images/canada.gif" alt="">
-                </div>
-              </a>
-                <div class="subtitle"><a asp-page="/Track">COVID-19 Case Tracker</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="portfolio-item-wrapper">
-              <div class="portfolio-img-background" style="background-image:url('images/blue.jpg')"></div>
-              <div class="img-text-wrapper">
-                <a asp-page="/About">
-                <div class="logo-wrapper">
-                  <img src="images/team.png" alt="">
-                </div>
-                </a>
-                <div class="subtitle"><a asp-page="/About">About the team</a></div>
-              </div>
-            </div>
-    
-
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem; display:">
+          <img class="card-img-top" src="~/Images/canada.jpg" alt="Card image cap" width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Track</h5>
+            <p class="card-text">Access our online tools for tracking the spread of COVID in Canada.</p>
+            <a asp-page="/Track" class="btn btn-primary">Click here</a>
           </div>
         </div>
       </div>
-  </body>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="~/Images/mask.png" alt="Card image cap" width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Prevention</h5>
+            <p class="card-text">Learn how you can help stop the spread of the deadly COVID-19.</p>
+            <a asp-page="/Prevention" class="btn btn-primary">Click here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="~/Images/rules.png" alt="Card image cap" width="200px" height="300px">
+          <div class="card-body">
+            <h5 class="card-title">Self-Assessment</h5>
+            <p class="card-text">Take the government of Ontario's self-assessment.</p>
+            <a href="https://covid-19.ontario.ca/self-assessment/severe-symptoms" class="btn btn-primary">Click here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
