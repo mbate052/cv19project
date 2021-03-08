@@ -12,12 +12,12 @@
         function SelectProvince() {  
         var mylist = document.getElementById("myList");  
         var MyProvince = mylist.options[mylist.selectedIndex].text;
-        
-        if(MyProvince == "Alberta"){
+        alert(MyProvince);
+        if (MyProvince == "Alberta") {
             document.getElementById("MyInfo").innerHTML = "There are 2068 cases in Alberta.";
-        } elseif(MyProvince == "British Columbia"){
+        } else if (MyProvince == "British Columbia") {
             document.getElementById("MyInfo").innerHTML = "There are 4645 cases in BC.";
-        } else{
+        } else {
             document.getElementById("MyInfo").innerHTML = "catsarecool";
         }  
         </script>  
