@@ -8,41 +8,44 @@
 <body  class="body">
     <div class="body">
         <br>
-        <script>  
-        function SelectProvince() {  
-        var mylist = document.getElementById("myList");  
-        var MyProvince = mylist.options[mylist.selectedIndex].text;
-        alert(MyProvince);
-        if (MyProvince == "Alberta") {
-            document.getElementById("MyInfo").innerHTML = "There are 2068 cases in Alberta.";
-        } else if (MyProvince == "British Columbia") {
-            document.getElementById("MyInfo").innerHTML = "There are 4645 cases in BC.";
-        } else {
-            document.getElementById("MyInfo").innerHTML = "catsarecool";
-        }  
-        </script>  
-   
-        <form>  
-        <b> Select your province or territory to get more information: </b>  
-        <select id = "myList" onchange = "SelectProvince()" >  
-        <option> ---Select Province or Territory--- </option>  
-        <option> Alberta </option>  
-        <option> British Columbia </option>  
-        <option> Manitoba </option>  
-        <option> New Brunswick </option>  
-        <option> Newfoundland and Labrador </option>  
-        <option> Northwest Territories </option>  
-        <option> Nova Scotia </option>  
-        <option> Nunavut </option>  
-        <option> Ontario </option>  
-        <option> Prince Edward Island </option>  
-        <option> Quebec </option>  
-        <option> Saskatchewan </option>  
-        <option> Yukon </option> 
-        </select>  
-        </form>  
+        <script>
+        function SelectProvince() {
+            var mylist = document.getElementById("myList");
+            var MyProvince = mylist.options[mylist.selectedIndex].text;
+            if (MyProvince == "Alberta") {
+                document.getElementById("MyInfo").innerHTML = "There are 2068 cases in Alberta.";
+            } else if (MyProvince == "British Columbia") {
+                document.getElementById("MyInfo").innerHTML = "There are 4645 cases in BC.";
+            } else if (MyProvince == "Manitoba") {
+                document.getElementById("MyInfo").innerHTML = "There are 10 cases in Manitoba.";
+            } else {
+                document.getElementById("MyInfo").innerHTML = "catsarecool";
+            }
+        }
+        </script>
+        <form>
+        <b> Select your province or territory to get more information: </b>
+        <select id="myList" onchange="SelectProvince()">
+        <option> ---Select Province or Territory--- </option>
+        <option> Alberta </option>
+        <option> British Columbia </option>
+        <option> Manitoba </option>
+        <option> New Brunswick </option>
+        <option> Newfoundland and Labrador </option>
+        <option> Northwest Territories </option>
+        <option> Nova Scotia </option>
+        <option> Nunavut </option>
+        <option> Ontario </option>
+        <option> Prince Edward Island </option>
+        <option> Quebec </option>
+        <option> Saskatchewan </option>
+        <option> Yukon </option>
+        </select>
+        </form>
         <div id="MyInfo">
+            Your info will be here
         </div>
+        <br>
         <p>Once databases are configured then we will make it so users can browse different regions, and login to save their preferences. Until then, this chart is provided by <button class="clickable-element" onclick="window.open('https://resources-covid19canada.hub.arcgis.com/pages/media')" target="_blank">Esri Canada.</button></label></p></br>
         <div class="chart">
                <!-- <iframe src="https://covid19canada.maps.arcgis.com/apps/opsdashboard/index.html#/cfbd8528810042d38d4e184e6731f2f9" height="550" width="100%"></iframe>
