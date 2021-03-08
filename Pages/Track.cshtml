@@ -7,7 +7,39 @@
 
 <body  class="body">
     <div class="body">
-        <p>This is where the main service will be.</p></br>
+        <head>  
+        <title>dropdown menu</title>  
+        </head>  
+        <script>  
+        function SelectProvince() {  
+        var mylist = document.getElementById("myList");  
+        document.getElementById("Province").value = mylist.options[mylist.selectedIndex].text;  
+        }  
+        </script>  
+  
+        <body>  
+        <form>  
+        <b> Select your province or territory to get more information: </b>  
+        <select id = "myList" onchange = "SelectProvince()" >  
+        <option> ---Select Province or Territory--- </option>  
+        <option> Alberta </option>  
+        <option> British Columbia </option>  
+        <option> Manitoba </option>  
+        <option> New Brunswick </option>  
+        <option> Newfoundland and Labrador </option>  
+        <option> Northwest Territories </option>  
+        <option> Nova Scotia </option>  
+        <option> Nunavut </option>  
+        <option> Ontario </option>  
+        <option> Prince Edward Island </option>  
+        <option> Quebec </option>  
+        <option> Saskatchewan </option>  
+        <option> Yukon </option> 
+        </select>  
+        <p> Your selected province or territory is:   
+        <input type = "text" id = "Province" size = "20" </p>  
+        </form>  
+        </body>  
         <p>Once databases are configured then we will make it so users can browse different regions, and login to save their preferences. Until then, this chart is provided by <button class="clickable-element" onclick="window.open('https://resources-covid19canada.hub.arcgis.com/pages/media')" target="_blank">Esri Canada.</button></label></p></br>
         <div class="chart">
                <!-- <iframe src="https://covid19canada.maps.arcgis.com/apps/opsdashboard/index.html#/cfbd8528810042d38d4e184e6731f2f9" height="550" width="100%"></iframe>
