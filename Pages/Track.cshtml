@@ -11,8 +11,14 @@
         <script>  
         function SelectProvince() {  
         var mylist = document.getElementById("myList");  
-        document.getElementById("Province").value = mylist.options[mylist.selectedIndex].text;  
-        document.getElementById("MyInfo").innerHTML = mylist.options[mylist.selectedIndex].text;
+        var MyProvince = mylist.options[mylist.selectedIndex].text;
+        
+        if(MyProvince == "Alberta"){
+            document.getElementById("MyInfo").innerHTML = "There are 2068 cases in Alberta.";
+        } elseif(MyProvince == "British Columbia"){
+            document.getElementById("MyInfo").innerHTML = "There are 4645 cases in BC.";
+        } else{
+            document.getElementById("MyInfo").innerHTML = "catsarecool";
         }  
         </script>  
    
@@ -34,8 +40,6 @@
         <option> Saskatchewan </option>  
         <option> Yukon </option> 
         </select>  
-        <p> Your selected province or territory is:   
-        <input type = "text" id = "Province" size = "20" </p>  
         </form>  
         <div id="MyInfo">
         </div>
