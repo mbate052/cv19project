@@ -5,72 +5,79 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<body  class="body">
+<body class="body">
     <div class="body">
         <br>
         <script>
-        function SelectProvince() {
-            var mylist = document.getElementById("myList");
-            var MyProvince = mylist.options[mylist.selectedIndex].text;
-            if (MyProvince == "Alberta") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Alberta there are:</b><br>135,837 total cases.<br>4,949 active cases.<br>3,445,307 total tests performed.</p>";
-            } else if (MyProvince == "British Columbia") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In British Columbia there are:</b><br>83,107 total cases.<br>4,975 active cases.<br>1,969,444 total tests performed.</p>";
-            } else if (MyProvince == "Manitoba") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Manitoba there are:</b><br>32,225 total cases.<br>1,130 active cases.<br>541,269 total tests performed.</p>";
-            } else if (MyProvince == "New Brunswick") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In New Brunswick there are:</b><br>1,455 total cases.<br>36 active cases.<br>242,695 total tests performed.</p>";
-            } else if (MyProvince == "Newfoundland and Labrador") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Newfoundland and Labrador there are:</b><br>1,006 total cases.<br>91 active cases.<br>201,814 total tests performed.</p>";
-            } else if (MyProvince == "Northwest Territories") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Northwest Territories there are:</b><br>42 total cases.<br>1 active case.<br>14,849 total tests performed.</p>";
-            } else if (MyProvince == "Nova Scotia") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Nova Scotia there are:</b><br>1,659 total cases.<br>29 active cases.<br>366,679 total tests performed.</p>";
-            } else if (MyProvince == "Nunavut") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Nunavut there are:</b><br>381 total cases.<br>25 active cases.<br>8,852 total tests performed.</p>";
-            } else if (MyProvince == "Ontario") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Ontario there are:</b><br>308,296 total cases.<br>10,389 active cases.<br>11,205,314 total tests performed.</p>";
-            } else if (MyProvince == "Prince Edward Island") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Prince Edward Island there are:</b><br>141 total cases.<br>26 active cases.<br>112,416 total tests performed.</p>";
-            } else if (MyProvince == "Quebec") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Quebec there are:</b><br>292,631 total cases.<br>7,100 active cases.<br>6,452,036 total tests performed.</p>";
-            } else if (MyProvince == "Saskatchewan") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Saskatchewan there are:</b><br>29,709 total cases.<br>1,517 active cases.<br>590,938 total tests performed.</p>";
-            } else if (MyProvince == "Yukon") {
-                document.getElementById("MyInfo").innerHTML = "<br><b><p>In Yukon there are:</b><br>72 total cases.<br>0 active cases.<br>8,232 total tests performed.</p>";
+            function SelectProvince() {
+                var mylist = document.getElementById("myList");
+                var MyProvince = mylist.options[mylist.selectedIndex].text;
+                if (MyProvince == "Alberta") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Alberta there are:</b><br>135,837 total cases.<br>4,949 active cases.<br>3,445,307 total tests performed.</p>";
+                } else if (MyProvince == "British Columbia") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In British Columbia there are:</b><br>83,107 total cases.<br>4,975 active cases.<br>1,969,444 total tests performed.</p>";
+                } else if (MyProvince == "Manitoba") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Manitoba there are:</b><br>32,225 total cases.<br>1,130 active cases.<br>541,269 total tests performed.</p>";
+                } else if (MyProvince == "New Brunswick") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In New Brunswick there are:</b><br>1,455 total cases.<br>36 active cases.<br>242,695 total tests performed.</p>";
+                } else if (MyProvince == "Newfoundland and Labrador") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Newfoundland and Labrador there are:</b><br>1,006 total cases.<br>91 active cases.<br>201,814 total tests performed.</p>";
+                } else if (MyProvince == "Northwest Territories") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Northwest Territories there are:</b><br>42 total cases.<br>1 active case.<br>14,849 total tests performed.</p>";
+                } else if (MyProvince == "Nova Scotia") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Nova Scotia there are:</b><br>1,659 total cases.<br>29 active cases.<br>366,679 total tests performed.</p>";
+                } else if (MyProvince == "Nunavut") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Nunavut there are:</b><br>381 total cases.<br>25 active cases.<br>8,852 total tests performed.</p>";
+                } else if (MyProvince == "Ontario") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Ontario there are:</b><br>308,296 total cases.<br>10,389 active cases.<br>11,205,314 total tests performed.</p>";
+                } else if (MyProvince == "Prince Edward Island") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Prince Edward Island there are:</b><br>141 total cases.<br>26 active cases.<br>112,416 total tests performed.</p>";
+                } else if (MyProvince == "Quebec") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Quebec there are:</b><br>292,631 total cases.<br>7,100 active cases.<br>6,452,036 total tests performed.</p>";
+                } else if (MyProvince == "Saskatchewan") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Saskatchewan there are:</b><br>29,709 total cases.<br>1,517 active cases.<br>590,938 total tests performed.</p>";
+                } else if (MyProvince == "Yukon") {
+                    document.getElementById("MyInfo").innerHTML = "<br><b><p>In Yukon there are:</b><br>72 total cases.<br>0 active cases.<br>8,232 total tests performed.</p>";
+                }
             }
-        }
         </script>
         <form>
-        <b><p> Select your province or territory to get more information: </p></b>
-        <select id="myList" onchange="SelectProvince()">
-        <option > ---Select Province or Territory--- </option>
-        <option> Alberta</option>
-        <option> British Columbia </option>
-        <option> Manitoba </option>
-        <option> New Brunswick </option>
-        <option> Newfoundland and Labrador </option>
-        <option> Northwest Territories </option>
-        <option> Nova Scotia </option>
-        <option> Nunavut </option>
-        <option> Ontario </option>
-        <option> Prince Edward Island </option>
-        <option> Quebec </option>
-        <option> Saskatchewan </option>
-        <option> Yukon </option>
-        </select>
+            <b>
+                <p> Select your province or territory to get more information: </p>
+            </b>
+            <select id="myList" onchange="SelectProvince()">
+                <option> ---Select Province or Territory--- </option>
+                <option> Alberta</option>
+                <option> British Columbia </option>
+                <option> Manitoba </option>
+                <option> New Brunswick </option>
+                <option> Newfoundland and Labrador </option>
+                <option> Northwest Territories </option>
+                <option> Nova Scotia </option>
+                <option> Nunavut </option>
+                <option> Ontario </option>
+                <option> Prince Edward Island </option>
+                <option> Quebec </option>
+                <option> Saskatchewan </option>
+                <option> Yukon </option>
+            </select>
         </form>
         <p>Please note that these provincial and territorial updates are as of March 7th 2021 at 7pm EDT. </p>
         <div id="MyInfo">
-            
+
         </div>
         <br>
-        <p>Once databases are configured then we will make it so users can browse different regions, and login to save their preferences. Until then, this chart is provided by <button class="clickable-element" onclick="window.open('https://resources-covid19canada.hub.arcgis.com/pages/media')" target="_blank">Esri Canada.</button></label></p></br>
+        <p>Once databases are configured then we will make it so users can browse different regions, and login to save
+            their preferences. Until then, this chart is provided by <button class="clickable-element"
+                onclick="window.open('https://resources-covid19canada.hub.arcgis.com/pages/media')" target="_blank">Esri
+                Canada.</button></label></p></br>
         <div class="chart">
-               <!-- <iframe src="https://covid19canada.maps.arcgis.com/apps/opsdashboard/index.html#/cfbd8528810042d38d4e184e6731f2f9" height="550" width="100%"></iframe>
+            <!-- <iframe src="https://covid19canada.maps.arcgis.com/apps/opsdashboard/index.html#/cfbd8528810042d38d4e184e6731f2f9" height="550" width="100%"></iframe>
              <iframe src="https://covid19canada.maps.arcgis.com/apps/opsdashboard/index.html#/2772c0489f43411ca9493fc5888fbe67" height="550" width="100%"></iframe> 
-               <iframe src="https://covid19canada.maps.arcgis.com/apps/Minimalist/index.html?appid=b3baccb0f30e4516b8e64009b3383f55" height="500" width="100%"></iframe>--> 
-            <iframe src="https://covid19canada.maps.arcgis.com/apps/Minimalist/index.html?appid=b3baccb0f30e4516b8e64009b3383f55" height="500" width="100%"></iframe>
+               <iframe src="https://covid19canada.maps.arcgis.com/apps/Minimalist/index.html?appid=b3baccb0f30e4516b8e64009b3383f55" height="500" width="100%"></iframe>-->
+            <iframe
+                src="https://covid19canada.maps.arcgis.com/apps/Minimalist/index.html?appid=b3baccb0f30e4516b8e64009b3383f55"
+                height="500" width="100%"></iframe>
         </div>
     </div>
 </body>

@@ -39,9 +39,6 @@ p, a, h2, h3, ul, li {
 .body h2 {
   color: var(--text-color)
 }
-.body option {
-  color: var(--text-color)
-}
 
 p {
   color: var(--text-color)
