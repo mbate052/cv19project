@@ -13,7 +13,11 @@
             var mylist = document.getElementById("myList");
             var MyProvince = mylist.options[mylist.selectedIndex].text;
             if (MyProvince == "Alberta") {
-                document.getElementById("MyInfo").innerHTML = "There are 2068 cases in Alberta.";
+                document.getElementById("MyInfo").innerHTML = "In Alberta there are: 
+
+                135,837 total cases.
+                4,949 active cases.
+                3,445,307 total tests performed.";
             } else if (MyProvince == "British Columbia") {
                 document.getElementById("MyInfo").innerHTML = "There are 4645 cases in BC.";
             } else if (MyProvince == "Manitoba") {
@@ -42,6 +46,8 @@
         <option> Yukon </option>
         </select>
         </form>
+        <br>
+        Please note that these provincial and territorial updates are as of March 7th 2021 at 7pm EDT. 
         <br>
         <div id="MyInfo">
             Your info will be here
