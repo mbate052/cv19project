@@ -8,7 +8,7 @@ body {
   --bkg-color: #fff;
 }
 body.dark-theme {
-  --text-color: #eee;
+  --text-color: #222;
   --bkg-color: #121212;
 }
 .dark-mode {
@@ -18,7 +18,7 @@ body.dark-theme {
 @media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
   body {
-    --text-color: #eee;
+    --text-color: #222;
     --bkg-color: #121212;
   }
   body.light-theme {
@@ -36,6 +36,15 @@ p, a {
 }
 .body p {
     padding: 5px 5px;
+    color: var(--text-color)
+}
+
+p {
+  color: var(--text-color)
+}
+
+.card-text {
+  color: var(--text-color)
 }
 
 .chart {
