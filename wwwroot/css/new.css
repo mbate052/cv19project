@@ -4,7 +4,7 @@
     background-color: #77A6F7;
 }
 body {
-  --text-color: #fff;
+  --text-color: #222;
   --bkg-color: #fff;
 }
 body.dark-theme {
@@ -19,7 +19,7 @@ body.dark-theme {
     --bkg-color: #121212;
   }
   body.light-theme {
-    --text-color: #fff;
+    --text-color: #222;
     --bkg-color: #fff;
   }
 }
