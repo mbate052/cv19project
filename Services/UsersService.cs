@@ -28,11 +28,6 @@ namespace covidwatch.Services
         _users.InsertOne(user);
         return user;
         }
-        public void Update(User userUp) 
-        {
-        _users.ReplaceOne(province => province.Id == 
-        userUp.Id, userUp);
-        }
         public void Remove(User userIn) 
         {
         _users.DeleteOne(user => user.Id == userIn.Id);
