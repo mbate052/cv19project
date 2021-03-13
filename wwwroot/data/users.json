@@ -8,5 +8,10 @@
         "UID" : 2,
         "Username" : "user2",
         "Password" : "password2"
+    },
+    {
+        "UID" : 3,
+        "Username" : "user3",
+        "Password" : "password3"
     }
 ]
