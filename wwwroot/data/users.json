@@ -1,9 +1,11 @@
 [
     {
+        "UID" : 1,
         "Username" : "user1",
         "Password" : "password1"
     },
     {
+        "UID" : 2,
         "Username" : "user2",
         "Password" : "password2"
     }

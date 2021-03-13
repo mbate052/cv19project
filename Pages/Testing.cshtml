@@ -21,8 +21,13 @@
                 height="500" width="100%"></iframe> -->
         </div>
     </div>
-    <!-- <div class="container"> **This is for testing the username/password Model, please don't touch :)
+    <div class="container"> **This is for testing the username/password Model, please don't touch :)
         <div class="card">
+            <h2> Your UIDs are: </h2>
+            @foreach (var use in Model.Users)
+            {
+                <h3>@use.UID</h3>
+            }
             <h2> Your users are: </h2>
             @foreach (var use in Model.Users)
             {
@@ -34,5 +39,5 @@
                 <h3>@use.Password</h3>
             }
         </div>
-    </div> -->
+    </div>
 </body>
