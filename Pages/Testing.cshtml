@@ -22,16 +22,22 @@
         </div>
     </div>
     <div class="container"> <!-- **This is for testing the username/password Model, please don't touch :) -->
-        <div class="card">
-            <div class="card-body">
-                <p class="card-title">Users from DB file:</p>
-                @foreach (var person in Model.Users)
+        <div class="card border-secondary">
+            <div class="card-header">Users from database (just testing that it works): </div>
+            <div class="row">
+            @foreach (var pers in Model.Users)
                 {
-                    <p class="card-text">UID:  @person.UID</p>
-                    <p class="card-text">Username: @person.Username</p>
-                    <p class="card-text">Password: @person.Password</p>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-header">@pers.UID</h4>
+                            <p class="card-text">@pers.Username</p>
+                            <p class="card-text">@pers.Password</p>
+                        </div>
+                    </div>
+                </div>
                 }
-           </div>
-        </div>    
+            </div>
+        </div>
     </div>
 </body>
