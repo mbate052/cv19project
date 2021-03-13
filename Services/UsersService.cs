@@ -18,5 +18,28 @@ namespace covidwatch.Services
         {
             return _users.Find(user => true).ToList();
         }
+        public User Get(string id)
+        {
+            return _users.Find<User>(user => user.Id ==
+            id).FirstOrDefault();
+        }
+        public User Create(User user)
+        {
+        _users.InsertOne(user);
+        return user;
+        }
+        public void Update(User userUp) 
+        {
+        _users.ReplaceOne(province => province.Id == 
+        userUp.Id, userUp);
+        }
+        public void Remove(User userIn) 
+        {
+        _users.DeleteOne(user => user.Id == userIn.Id);
+        }
+        public void Remove(string id) 
+        {
+        _users.DeleteOne(user => user.Id == id);
+        }
     }
 }
