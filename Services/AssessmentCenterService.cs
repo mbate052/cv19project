@@ -8,10 +8,10 @@ namespace covidwatch.Services
         public AssessmentCenterService(AssessmenCenterDBSetting settings){
             var client = new MongoClient(settings.ConnectionString);
             var database = client.GetDatabace(settings.DatabaseName);
-            _AssessmentCenter = database.GetCollection<AssessmentCenter>(settings.AssessmentCenterCollectionName);
+            _AssessmentCenter = database.GetCollection<AssessmenCenter>(settings.AssessmentCenterCollectionName);
         }
 
-        public List<AssessmentCenter> Get()
+        public List<AssessmenCenter> Get()
         {
             return _AssessmentCenter.Find(assessment_center => true).ToList();
         }

@@ -44,7 +44,7 @@
         <h1>Due to limited access to the database of Testing Center locations, you will only be able to search for testing centers in Ontario</h1>
         <select id="select_city">
             @foreach (var ass in Model.AssessmentCenters) {
-            <option value="@ass.Id">@ass.province</option>
+            <option value="@ass.Id">@prov.Name</option>
             }
         </select>
     </div>

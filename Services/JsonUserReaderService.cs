@@ -35,5 +35,16 @@ namespace covidwatch.services
             }
         }
 
+        public IEnumerable<AssessmenCenter> GetAssessmentCenters()
+        {
+            using(var jsonFileReader = File.OpenText(Json))
+            {
+                return JsonSerializer.Deserialize<AssessmenCenter[]>(jsonFileReader.ReadToEnd(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+            }
+        }
     }
 }

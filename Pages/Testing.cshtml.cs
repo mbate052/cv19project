@@ -24,18 +24,6 @@ namespace covidwatch.Pages
             DBservice = uServ;
         }
 
-
-        private readonly ILogger<TestingModel> _logger;
-        public AssessmentCenterService ACservice;
-        public IEnumberable<AssessmentCenter> AssessmentCenters;
-        public TestingModel(ILogger<TestingModel> logger, JsonAessReaderService jars, AssessmentCenterService aServ)
-        {
-            _logger = logger;
-            jsonservice = jars;
-            ACservice = aService;
-
-        }
-
         public void OnGet()
         {
             Users = DBservice.Get();
