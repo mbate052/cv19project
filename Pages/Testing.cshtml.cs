@@ -19,19 +19,25 @@ namespace covidwatch.Pages
         public IEnumerable<User> Users;
         public AssessmentCenterService ACservice;
         public IEnumerable<AssessmentCenter> AssessmentCenters;
+        private JsonAssReaderService jsonService2;
         private object jsonservice;
 
-        public TestingModel(ILogger<TestingModel> logger, JsonUserReaderService jurs, UsersService uServ, AssessmentCenterService aServ) 
+        public TestingModel(ILogger<TestingModel> logger, JsonUserReaderService jurs, UsersService uServ) 
         {
             _logger = logger;
-            /// Jsonservice = jurs;
+            jsonservice = jurs;
             DBservice = uServ;
+        }
+        public TestingModel(ILogger<TestingModel> logger, JsonAssReaderService jars, AssessmentCenterService aServ) 
+        {
+            _logger = logger;
+            jsonService2 = jars;
             ACservice = aServ;
         }
         public void OnGet()
         {
             Users = DBservice.Get();
-            AssessmentCenters = ACservice.Get()
+            AssessmentCenters = jsonService2.GetAssessmentCenters();
         }
  
         

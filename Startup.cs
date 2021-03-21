@@ -37,10 +37,10 @@ namespace covidwatch
 
 
             //This is the AssessmentCenter service
-            services.Configure<AssessmenCenterDBSettings>(
-                Configuration.GetSection(nameof(AssessmenCenterDBSettings)));
-            services.AddSingleton<AssessmenCenterDBSettings>(sp =>
-                sp.GetRequiredService<IOptions<AssessmenCenterDBSettings>>().Value);
+            services.Configure<AssessmentCenterDBSettings>(
+                Configuration.GetSection(nameof(AssessmentCenterDBSettings)));
+            services.AddSingleton<AssessmentCenterDBSettings>(sp =>
+                sp.GetRequiredService<IOptions<AssessmentCenterDBSettings>>().Value);
             services.AddSingleton<AssessmentCenterService>();
         }
 
