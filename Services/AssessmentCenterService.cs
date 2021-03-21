@@ -1,6 +1,6 @@
 using covidwatch.Model;
 
-namespace covidwatch.Services,
+namespace covidwatch.Services
 {
     public class AssessmentCenterService{
         private readonly IMongoCollection<AssessmentCenter> _AssessmentCenter;
@@ -11,9 +11,11 @@ namespace covidwatch.Services,
             _AssessmentCenter = database.GetCollection<AssessmenCenter>(settings.AssessmentCenterCollectionName);
         }
 
-        public AssessmenCenter GetAssessmentCenter(string whichpage){
-            _AssessmentCenter.Find<AssessmenCenter>(item =>);
+        public List<AssessmenCenter> Get()
+        {
+            return _AssessmentCenter.Find(assessment_center => true).ToList();
         }
+        
         }
 
     }

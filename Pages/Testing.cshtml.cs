@@ -27,6 +27,7 @@ namespace covidwatch.Pages
         public void OnGet()
         {
             Users = DBservice.Get();
+            AssessmentCenters = jsonservice.GetAssessmentCenters();
         }
     }
 }

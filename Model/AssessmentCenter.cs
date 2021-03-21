@@ -8,9 +8,10 @@ namespace covidwatch.Model {
         [BsonId][BsonRepresentation(BsonType.ObjectId)]
 
         public string Id{get;set;}
-
+        public int phone{get;set;}
         public string province{get;set;}
         public string city{get;set; }
+        public string location_name{get;set;}
         public string address{get;set; }
     }
 }
