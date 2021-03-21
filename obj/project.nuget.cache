@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4paS29CMGSidhps1pVxHGOdYxkBIg//MEtqitW9TA8JVJs5nt0Wm3x4E9FTOs4t1QMR1MjatDRgMJa86nmm+uw==",
+  "dgSpecHash": "fY/Prs4Zc4EmUbivzwphlBUf4/POCaxFRhoMCh7OcPdeE6uo690IQIHMLueIJ9EivW+yCjMjZndKE6SGhtVLMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\cv19project\\covidwatch.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\covidwatch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

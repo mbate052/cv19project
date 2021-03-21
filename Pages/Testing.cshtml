@@ -23,22 +23,43 @@
     </div>
     <div class="container"> <!-- **This is for testing the username/password Model, please don't touch :) -->
         <div class="card border-secondary">
-            <div class="card-header">Users from database (just testing that it works): </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-header">Add user to DB... (in progress)</div>
+
+                </div>
+            </div>
+            <div class="card-header"><b>Users in database:</b> </div>
             <div class="row">
             @foreach (var pers in Model.Users)
                 {
-                <div class="col-sm">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-header">@pers.UID</h4>
-                            <p class="card-text">@pers.Username</p>
-                            <p class="card-text">@pers.Password</p>
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-header">@pers.UID</h4>
+                                <p class="card-text">@pers.Username</p>
+                                <p class="card-text">@pers.Password</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                }
+            </div>
+            <div class="card-header"><b>Assessment centers in database: </b></div>
+            <div class="row">
+            @foreach (var assess in Model.AssessmentCenters)
+                {
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-header">@assess.location_name</h4>
+                                <p class="card-text">@assess.address</p>
+                                <p class="card-text">@assess.phone</p>
+                                <p class="card-text">@assess.city</p>
+                            </div>
+                        </div>
+                    </div>
                 }
             </div>
         </div>
     </div>
-    
 </body>

@@ -22,22 +22,17 @@ namespace covidwatch.Pages
         private JsonAssReaderService jsonService2;
         private object jsonservice;
 
-        public TestingModel(ILogger<TestingModel> logger, JsonUserReaderService jurs, UsersService uServ) 
+        public TestingModel(ILogger<TestingModel> logger, JsonUserReaderService jurs, UsersService uServ, AssessmentCenterService aServ) 
         {
             _logger = logger;
             jsonservice = jurs;
             DBservice = uServ;
-        }
-        public TestingModel(ILogger<TestingModel> logger, JsonAssReaderService jars, AssessmentCenterService aServ) 
-        {
-            _logger = logger;
-            jsonService2 = jars;
             ACservice = aServ;
         }
         public void OnGet()
         {
             Users = DBservice.Get();
-            AssessmentCenters = jsonService2.GetAssessmentCenters();
+            AssessmentCenters = ACservice.Get();
         }
  
         
