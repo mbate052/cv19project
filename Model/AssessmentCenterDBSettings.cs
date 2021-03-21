@@ -1,9 +1,10 @@
 namespace covidwatch.Model
 {
-    public class AssessmenCenterDBSetting
+    public class AssessmentCenterDBSettings
     {
-        public string UsersCollectionName { get; set; }
+        public string AssessmentCenterCollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
+
     }
 }

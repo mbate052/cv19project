@@ -33,6 +33,15 @@ namespace covidwatch
             services.AddSingleton<UserDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<UserDatabaseSettings>>().Value);
             services.AddSingleton<UsersService>();
+
+
+
+            //This is the AssessmentCenter service
+            services.Configure<AssessmenCenterDBSettings>(
+                Configuration.GetSection(nameof(AssessmenCenterDBSettings)));
+            services.AddSingleton<AssessmenCenterDBSettings>(sp =>
+                sp.GetRequiredService<IOptions<AssessmenCenterDBSettings>>().Value);
+            services.AddSingleton<AssessmentCenterService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

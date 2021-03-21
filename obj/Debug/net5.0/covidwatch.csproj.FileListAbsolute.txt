@@ -97,3 +97,14 @@ C:\Users\Administrator\Documents\GitHub\cv19project\bin\Debug\net5.0\SharpCompre
 C:\Users\Administrator\Documents\GitHub\cv19project\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
 C:\Users\Administrator\Documents\GitHub\cv19project\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
 C:\Users\Administrator\Documents\GitHub\cv19project\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.AssemblyInfo.cs
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.dll
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\ref\covidwatch.dll
+C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.pdb
