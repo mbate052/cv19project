@@ -1,5 +1,3 @@
-
-
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -23,17 +21,16 @@ namespace covidwatch.services
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "users.json"); }
         }
 
-        public IEnumerable<User> GetUsers()
+        public IEnumerable<AssessmentCenter> GetAssessmentCenters()
         {
-            using(var jsonFileReader = File.OpenText(JsonFileName))
+            using(var jsonFileReader = File.OpenText(Json))
             {
-                return JsonSerializer.Deserialize<User[]>(jsonFileReader.ReadToEnd(),
-                    new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true
-                    });
+                return JsonSerializer.Deserialize<AssessmenCenter[]>(jsonFileReader.ReadToEnd(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
             }
         }
-
     }
 }
