@@ -151,3 +151,111 @@ C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.RazorTa
 C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.Views.pdb
 C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.csproj.CopyComplete
 C:\Users\Administrator\Documents\cv19project\obj\Debug\net5.0\covidwatch.genruntimeconfig.cache
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\appsettings.json
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.exe
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.deps.json
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.runtimeconfig.json
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.runtimeconfig.dev.json
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\ref\covidwatch.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.pdb
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.Views.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\covidwatch.Views.pdb
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\DnsClient.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\dell\Desktop\cv19project\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.AssemblyInfo.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.RazorAssemblyInfo.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.RazorAssemblyInfo.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\staticwebassets\covidwatch.StaticWebAssets.Manifest.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\staticwebassets\covidwatch.StaticWebAssets.xml
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\scopedcss\bundle\covidwatch.styles.css
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.TagHelpers.input.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.TagHelpers.output.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.RazorCoreGenerate.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\About.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Prevention.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Testing.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\Track.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.RazorTargetAssemblyInfo.cache
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.RazorTargetAssemblyInfo.cs
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.Views.pdb
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.csproj.CopyComplete
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.dll
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\ref\covidwatch.dll
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.pdb
+C:\Users\dell\Desktop\cv19project\obj\Debug\net5.0\covidwatch.genruntimeconfig.cache
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\appsettings.Development.json
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\appsettings.json
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.exe
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.deps.json
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.runtimeconfig.json
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.runtimeconfig.dev.json
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\ref\covidwatch.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.pdb
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.Views.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\covidwatch.Views.pdb
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\DnsClient.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\MongoDB.Bson.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\MongoDB.Driver.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\SharpCompress.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+D:\UO Class material\Classes\2021 winter\cv19project\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.csprojAssemblyReference.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.AssemblyInfoInputs.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.AssemblyInfo.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.csproj.CoreCompileInputs.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.MvcApplicationPartsAssemblyInfo.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.RazorAssemblyInfo.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.RazorAssemblyInfo.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\staticwebassets\covidwatch.StaticWebAssets.Manifest.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\staticwebassets\covidwatch.StaticWebAssets.xml
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\scopedcss\bundle\covidwatch.styles.css
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.TagHelpers.input.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.TagHelpers.output.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.RazorCoreGenerate.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\About.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Prevention.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Testing.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\Track.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.RazorTargetAssemblyInfo.cache
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.RazorTargetAssemblyInfo.cs
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.Views.pdb
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.csproj.CopyComplete
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.dll
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\ref\covidwatch.dll
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.pdb
+D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.genruntimeconfig.cache

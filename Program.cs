@@ -20,7 +20,7 @@ namespace covidwatch
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>().UseUrls(("Http://*:5000"));
                 });
     }
 }

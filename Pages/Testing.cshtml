@@ -44,22 +44,44 @@
                     </div>
                 }
             </div>
-            <div class="card-header"><b>Assessment centers in database: </b></div>
-            <div class="row">
-            @foreach (var assess in Model.AssessmentCenters)
+            <div class="card-header"><b>Assessment centers in database:</b></div>
+            
+            <select id="select_cities" onchange="SelectCity()">
+                @foreach (var assess in Model.AssessmentCenters)
                 {
-                    <div class="col-sm">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-header">@assess.location_name</h4>
-                                <p class="card-text">@assess.address</p>
-                                <p class="card-text">@assess.phone</p>
-                                <p class="card-text">@assess.city</p>
-                            </div>
-                        </div>
-                    </div>
+                     //add search button
+                    <option value="@assess.Id">@assess.city</option>
+                        
                 }
-            </div>
+            </select>
+            <script>
+                function SelectCity()
+                {
+                    var CityList = document.getElementById("select_cities");
+                    var MyCity = CityList.options[CityList.selectedIndex].text;
+                    var Cityinfo = document.getElementById("CityInfo");
+                    if (MyCity == Cityinfo){
+                        //need to add more code there
+                        <div class="row">
+                            @foreach (var assess in Model.AssessmentCenters)
+                                {
+                                    <div class="col-sm">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                    <h4 class="card-header">@assess.location_name</h4>
+                                                    <p class="card-text">@assess.address</p>
+                                                    <p class="card-text">@assess.phone</p>
+                                                    <p class="card-text" id="CityInfo">@assess.city</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                }
+            </script>
+        </div>
+                    }
+                
+            
         </div>
     </div>
 </body>

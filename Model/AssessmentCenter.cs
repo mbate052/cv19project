@@ -13,5 +13,6 @@ namespace covidwatch.Model {
         public string city{get;set; }
         public string location_name{get;set;}
         public string address{get;set; }
+        public BsonDocument ExtraElements{get;set;}
     }
 }

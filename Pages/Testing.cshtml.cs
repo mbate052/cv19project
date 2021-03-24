@@ -19,7 +19,6 @@ namespace covidwatch.Pages
         public IEnumerable<User> Users;
         public AssessmentCenterService ACservice;
         public IEnumerable<AssessmentCenter> AssessmentCenters;
-        private JsonAssReaderService jsonService2;
         private object jsonservice;
 
         public TestingModel(ILogger<TestingModel> logger, JsonUserReaderService jurs, UsersService uServ, AssessmentCenterService aServ) 
