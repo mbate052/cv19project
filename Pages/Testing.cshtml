@@ -54,43 +54,49 @@
                 }
             </div>
             <div class="card-header"><b>Assessment centers in database:</b></div>
+                <input type="text" id="myInput" onkeyup="search_city()" placeholder="Search City Here">
             
-            <select id="select_cities" onchange="SelectCity()">
-                @foreach (var assess in Model.AssessmentCenters)
-                {
-                     //add search button
-                    <option value="@assess.Id">@assess.city</option>
-                        
-                }
-            </select>
-            <script>
-                function SelectCity()
-                {
-                    var CityList = document.getElementById("select_cities");
-                    var MyCity = CityList.options[CityList.selectedIndex].text;
-                    var Cityinfo = document.getElementById("CityInfo");
-                    if (MyCity == Cityinfo){
-                        //need to add more code there
-                        <div class="row">
-                            @foreach (var assess in Model.AssessmentCenters)
-                                {
-                                    <div class="col-sm">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                    <h4 class="card-header">@assess.location_name</h4>
-                                                    <p class="card-text">@assess.address</p>
-                                                    <p class="card-text">@assess.phone</p>
-                                                    <p class="card-text" id="CityInfo">@assess.city</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                }
-                }
-            </script>
-        </div>
+                <table id="myTable">
+                    <tr class="header">
+                        <th>City</th>
+                        <th>Location</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                    </tr>
+                    @foreach (var assess in Model.AssessmentCenters){
+                        <tr>
+                                
+                            <td class="cities">@assess.city</td>
+                            <td>@assess.location_name</td>
+                            <td>@assess.address</td>
+                            <td>@assess.phone</td>
+                            
+                        </tr> 
                     }
-                
-            
+                </table>
+                <script>
+                    function search_city(){
+                        let filter = document.getElementById("myInput").value.toLowerCase();
+
+                        let myTable = document.getElementById("myTable");
+                        let tr = myTable.getElementsByTagName("tr");
+                        for (var i=0; i<tr.length; i++){
+                            //tr[i] represent rows and [0] represent the first column (city)
+                            let td = tr[i].getElementsByTagName("td")[0];
+                            if (td){
+                                let textvalue = td.textContent || td.innerHTML;
+
+                                if (textvalue.toLowerCase().indexOf(filter) > -1){
+                                    tr[i].style.display = "";
+                                }else{
+                                    tr[i].style.display = "none";
+                                }
+                            }
+                        }
+                    }
+                </script>
+            </div>
+
         </div>
     </div>
 </body>
