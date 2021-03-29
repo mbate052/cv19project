@@ -10,28 +10,26 @@ using Microsoft.Extensions.Logging;
 
 namespace covidwatch.Pages
 {
-    public class LoginModel : PageModel
+    public class CreateModel : PageModel
     {
-        private readonly ILogger<LoginModel> _logger;
+        private readonly ILogger<CreateModel> _logger;
         public UsersService DBservice;
         public string Username { get; set; }
         public string Password { get; set; }
+        public int UID { get; set; }
 
-        public LoginModel(ILogger<LoginModel> logger, UsersService uServ)
+        public CreateModel(ILogger<CreateModel> logger, UsersService uServ)
         {
             _logger = logger;
             DBservice = uServ;
-        }
-
-        public void OnGet()
-        {
         }
         public void OnPostSubmit(User newuser)
         {
             this.Username = newuser.Username;
             this.Password = newuser.Password;
+            this.UID = newuser.UID;
             DBservice.Create(newuser);
-
+    
         }
     }
 }

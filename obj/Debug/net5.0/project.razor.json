@@ -15661,6 +15661,11 @@
       "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\cv19project\\Pages\\Create.cshtml",
+      "TargetPath": "Pages\\Create.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

@@ -259,3 +259,4 @@ D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch
 D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\ref\covidwatch.dll
 D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.pdb
 D:\UO Class material\Classes\2021 winter\cv19project\obj\Debug\net5.0\covidwatch.genruntimeconfig.cache
+C:\Users\Administrator\Documents\GitHub\cv19project\obj\Debug\net5.0\Razor\Pages\Create.cshtml.g.cs

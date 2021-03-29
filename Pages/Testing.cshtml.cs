@@ -8,7 +8,6 @@ using covidwatch.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-
 namespace covidwatch.Pages
 {
     public class TestingModel : PageModel
@@ -16,7 +15,7 @@ namespace covidwatch.Pages
         private readonly ILogger<TestingModel> _logger;
         /// private JsonUserReaderService Jsonservice;
         public UsersService DBservice;
-        public IEnumerable<User> Users;
+        public IEnumerable<User> Users; 
         public AssessmentCenterService ACservice;
         public IEnumerable<AssessmentCenter> AssessmentCenters;
         private object jsonservice;
@@ -33,7 +32,10 @@ namespace covidwatch.Pages
             Users = DBservice.Get();
             AssessmentCenters = ACservice.Get();
         }
- 
+        public void OnPost()
+        {
+         
+        }
         
     }
 }

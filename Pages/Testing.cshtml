@@ -55,7 +55,28 @@
             <div class="card">
                 <div class="card-body">
                     <div class="card-header">Add user to DB... (in progress)</div>
-
+                    <form method="post">
+                        <fieldset>
+                            <legend>User Creation</legend>
+                            <asp:TextBox ID="input_username" runat="server" value="Enter a username"></asp:TextBox>
+                            <br />
+                            <asp:TextBox ID="input_password" TextMode="Password"></asp:TextBox>
+                            <br />
+                            <asp:Button ID="submit_button" text="Button" />
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <form runat="server">
+                        Your name:
+                        <asp:TextBox id="txt1" runat="server" />
+                        <asp:Button OnClick="submit" Text="Submit" runat="server" />
+                        <p>
+                            <asp:Label id="lbl1" runat="server" />
+                        </p>
+                    </form>
                 </div>
             </div>
             <div class="card-header"><b>Users in database:</b> </div>
@@ -65,9 +86,8 @@
                     <div class="col-sm">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-header">@pers.UID</h4>
-                                <p class="card-text">@pers.Username</p>
-                                <p class="card-text">@pers.Password</p>
+                                <p class="card-text">Username: @pers.Username</p>
+                                <p class="card-text">Password: @pers.Password</p>
                             </div>
                         </div>
                     </div>
