@@ -35,66 +35,7 @@
     }
 </script>
 <body class="body">
-    <div class="body">
-        <p>This is where the main service will be.</p></br>
-        <p>Once databases are configured then we will make it so users can browse different regions, and login to save
-            their preferences. Until then, this chart is provided by <button class="clickable-element"
-                onclick="window.open('https://resources-covid19canada.hub.arcgis.com/pages/media')" target="_blank">Esri
-                Canada.</button></label></p></br>
-        <div class="chart">
-            <!-- <iframe src="https://covid19canada.maps.arcgis.com/apps/opsdashboard/index.html#/cfbd8528810042d38d4e184e6731f2f9" height="550" width="100%"></iframe>
-             <iframe src="https://covid19canada.maps.arcgis.com/apps/opsdashboard/index.html#/2772c0489f43411ca9493fc5888fbe67" height="550" width="100%"></iframe> 
-               <iframe src="https://covid19canada.maps.arcgis.com/apps/Minimalist/index.html?appid=b3baccb0f30e4516b8e64009b3383f55" height="500" width="100%"></iframe>
-            <iframe
-                src="https://covid19canada.maps.arcgis.com/apps/Minimalist/index.html?appid=b3baccb0f30e4516b8e64009b3383f55"
-                height="500" width="100%"></iframe> -->
-        </div>
-    </div>
     <div class="container"> <!-- **This is for testing the username/password Model, please don't touch :) -->
-        <div class="card border-secondary">
-            <div class="card">
-                <div class="card-body">
-                    <div class="card-header">Add user to DB... (in progress)</div>
-                    <form method="post">
-                        <fieldset>
-                            <legend>User Creation</legend>
-                            <asp:TextBox ID="input_username" runat="server" value="Enter a username"></asp:TextBox>
-                            <br />
-                            <asp:TextBox ID="input_password" TextMode="Password"></asp:TextBox>
-                            <br />
-                            <asp:Button ID="submit_button" text="Button" />
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <form runat="server">
-                        Your name:
-                        <asp:TextBox id="txt1" runat="server" />
-                        <asp:Button OnClick="submit" Text="Submit" runat="server" />
-                        <p>
-                            <asp:Label id="lbl1" runat="server" />
-                        </p>
-                    </form>
-                </div>
-            </div>
-            <div class="card-header"><b>Users in database:</b> </div>
-            <div class="row">
-            @foreach (var pers in Model.Users)
-                {
-                    <div class="col-sm">
-                        <div class="card">
-                            <div class="card-body">
-                                <p class="card-text">Username: @pers.Username</p>
-                                <p class="card-text">Password: @pers.Password</p>
-                            </div>
-                        </div>
-                    </div>
-                }
-            </div>
-    </div>
-    <div class="container">
         <div class="card border-secondary">
             <div class="card">
                 <div class="card-header"><b>Search for an Assessment Center</b></div>
@@ -121,7 +62,5 @@
                 </table>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
+    </div>    
 </body>

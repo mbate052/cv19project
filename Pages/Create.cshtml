@@ -7,27 +7,24 @@
 <html>
 
  <body>
-    <form method="post">
-        <table class="table">
-            <tr>
-                <td>Username: </td>
-                <td><input type="text" id="txtUserName" name="Username"/></td>
-            </tr>
-            <tr>
-                <td>Password </td>
-                <td><input type="password" id="txtPassword" name="Password" /></td>
-            </tr>
-            <tr>
-                <td>UID: </td>
-                <td><input type="text" id="txtUID" name="UID" /></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="submit" value="Submit" asp-page-handler="Submit"/></td>
-            </tr>
-        </table>
-        <hr/>
-    </form>
+    <div class="container">
+        <div class="card border-secondary">
+            <div class="card">
+            <div class="card-header"><b>This page allows you to view all the users in the database. Visit the Login page to create users.</b> </div>
+            <div class="row">
+            @foreach (var pers in Model.Users)
+                {
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Username: @pers.Username</p>
+                                <p class="card-text">Password: @pers.Password</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+    </div>
 </body>
 
 </html>
